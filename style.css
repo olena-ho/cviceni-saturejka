@@ -19,6 +19,7 @@ html {
   display: flex;
   align-items: center;
   flex-direction: column;
+  padding: 40px 0 60px;
 }
 
 .logo {
@@ -30,7 +31,7 @@ html {
   font-size: 20px;
   width: 45%;
   text-align: center;
-  padding: 10px 0 35px;
+  padding-top: 20px;
 }
 
 .content {
@@ -48,6 +49,7 @@ h2 {
 .content__title1 {
   margin: 0 auto 30px;
   width: fit-content;
+  font-size: 30px;
 }
 
 .content__moto {
@@ -57,13 +59,13 @@ h2 {
   text-align: center;
 }
 
-.content__galery {
+.content__gallery {
   display: flex;
   justify-content: space-between;
   margin-bottom: 60px;
 }
 
-.content__galery-item {
+.content__gallery-item {
   max-width: 31%;
 }
 
@@ -75,4 +77,41 @@ h2 {
 
 .content__article-par {
   padding-bottom: 22px;
+}
+
+.menu-item {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+}
+
+.menu-item__foto {
+  width: 40%;
+}
+
+.menu-item__name {
+  font-size: 25px;
+}
+
+.menu-item__description {
+  padding: 30px 0;
+}
+
+.btn {
+  text-decoration: none;
+  text-transform: uppercase;
+  color: black;
+  padding: 20px;
+}
+
+.btn--go-to-menu {
+  background-color: #ffefef;
+  line-height: 55px;
+  border: 0 solid transparent;
+  transition: all 0.5s ease;
+}
+
+.btn--go-to-menu:hover {
+  background-color: #fff;
+  border: 3px solid #ffefef;
 }
