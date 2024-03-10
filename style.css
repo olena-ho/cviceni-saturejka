@@ -85,6 +85,10 @@ h2 {
   gap: 40px;
 }
 
+.menu-item__details--right-centured {
+  text-align: right;
+}
+
 .menu-item__foto {
   width: 40%;
 }
