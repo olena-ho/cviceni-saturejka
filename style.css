@@ -10,22 +10,34 @@ html {
   font-size: 15px;
 }
 
-h1,
-h2 {
-  font-family: 'Playfair Display', serif;
-}
-
 .body {
   background-color: #ffefef;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
 }
 
 .logo {
   width: 25%;
   display: block;
-  margin: 15px auto;
+  /* margin: 15px auto; */
+}
 
+.header__text {
+  font-size: 20px;
+  width: 45%;
+  text-align: center;
+  padding: 10px 0 35px;
 }
 
 .content {
   background-color: #fff;
+}
+
+h1,
+h2 {
+  font-family: 'Playfair Display', serif;
 }
